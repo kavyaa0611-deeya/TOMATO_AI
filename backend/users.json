@@ -1,0 +1,43 @@
+{
+  "kavyaadeepak879@gmail.com": {
+    "name": "Kavya A",
+    "password": "4689f5e913dea4533742fa1dee16c412b6c3536f8f095ba89a6af9f5daaea327",
+    "registered_at": "2025-11-09T14:44:38.775344",
+    "last_login": "2025-11-13T10:37:51.114656"
+  },
+  "kavyaaa0611@gmail.com": {
+    "name": "Kavya A",
+    "password": "3d69c3ee5f877e5f4eac9c6035b40c965fa8b2895e72cfbe87d58fd639a80880",
+    "registered_at": "2025-11-13T21:43:29.030327",
+    "last_login": "2025-11-14T15:38:05.331565",
+    "total_predictions": 0
+  },
+  "prabhuangadi300@gmail.com": {
+    "name": "Prabhu",
+    "password": "4689f5e913dea4533742fa1dee16c412b6c3536f8f095ba89a6af9f5daaea327",
+    "registered_at": "2025-11-14T15:46:28.232098",
+    "last_login": "2025-11-14T15:47:05.578564",
+    "total_predictions": 0
+  },
+  "manupriyamanjunatha2004@gmail.com": {
+    "name": "manupriya",
+    "password": "e7e92c273463b9f3e5b871ba4a3423b84fbe675307fd05246accd5137a977c9a",
+    "registered_at": "2025-11-15T11:32:19.473271",
+    "last_login": "2025-11-18T21:25:38.229948",
+    "total_predictions": 0
+  },
+  "kavya0611@gmail.com": {
+    "name": "Kavana",
+    "password": "e7e92c273463b9f3e5b871ba4a3423b84fbe675307fd05246accd5137a977c9a",
+    "registered_at": "2025-11-18T06:28:24.362252",
+    "last_login": null,
+    "total_predictions": 0
+  },
+  "kavyaa0611@gmail.com": {
+    "name": "Kavana",
+    "password": "e7e92c273463b9f3e5b871ba4a3423b84fbe675307fd05246accd5137a977c9a",
+    "registered_at": "2025-11-18T06:28:34.406082",
+    "last_login": null,
+    "total_predictions": 0
+  }
+}
