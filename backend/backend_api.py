@@ -11,7 +11,10 @@ import numpy as np
 from PIL import Image
 import io
 import secrets
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 # TensorFlow/Keras imports
 import tensorflow as tf
 from tensorflow import keras
