@@ -26,7 +26,6 @@ app = Flask(__name__)
 allowed_origins = [
     "http://localhost:3000",  # Local development
     "https://tomato-ai-1.onrender.com",  # Your frontend URL
-    "https://tomato-ai.onrender.com"  # Add any other frontend URLs
 ]
 CORS(app, 
      resources={r"/api/*": {
