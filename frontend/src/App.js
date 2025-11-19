@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Camera, Upload, AlertCircle, LogOut, User, Lock, Mail, Leaf, Sun, Shield, Zap, Activity, TrendingUp, CheckCircle, Eye, EyeOff } from "lucide-react";
 
-const API_URL = "https://tomato-ai.onrender.com/api";
+const API_URL = "https://tomato-ai-2.onrender.com";
 
 const translations = {
   en: {

@@ -23,9 +23,9 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 app = Flask(__name__)
 # Allow frontend to access backend
-   allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
-   CORS(app, resources={
-       r"/api/*": {
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+CORS(app, resources={
+     r"/api/*": {
            "origins": allowed_origins,
            "methods": ["GET", "POST", "OPTIONS"],
            "allow_headers": ["Content-Type"]
