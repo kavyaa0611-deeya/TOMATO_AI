@@ -23,18 +23,8 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 app = Flask(__name__)
 # Allow frontend to access backend
-allowed_origins = [
-    "http://localhost:3000",  # Local development
-    "https://tomato-ai-1.onrender.com",  # Your frontend URL
-]
-CORS(app, 
-     resources={r"/api/*": {
-         "origins": allowed_origins,
-         "methods": ["GET", "POST", "OPTIONS"],
-         "allow_headers": ["Content-Type"],
-         "supports_credentials": True
-     }}
-)
+CORS(app, resources={r"/api/*": {"origins": "https://tomato-ai-1.onrender.com"}})
+
 # ==================== CONFIGURATION ====================
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
